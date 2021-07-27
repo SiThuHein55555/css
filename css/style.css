@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:Great_Vibes ;
+    src: url(../Great_Vibes/GreatVibes-Regular.ttf);
+}
+@font-face{
+	src:url(../Prata/Prata-Regular.ttf);
+	font-family: Prata;
+}
+.logo{
+    width: 110px;
+    height: 70px;
+    margin-left: 30px;
+    display: block;
+}
+.nav_background{
+    background-color: #16191c;
+}
+.brand_name{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: Great_Vibes;
+}
+.nav_brand{
+    display: inline-block;
+}
+.nav_background ul{
+    float: right;
+}
+.nav_background ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.nav_background ul li:hover{
+    color:yellow;
+    transform: translate(4px,-5px);
+    transition-duration:.3s ;
+}
+.background{
+    background-image: url(../images/background.png);
+    height: 750px;
+    /*width: 100%*/
+}
+.beerbar{
+    position: absolute;
+    color: gold;
+    left: 370px;
+    top: 300px;
+    font-size: 40px;
+    font-family: Great_Vibes;
+
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+/*body*/
+.grid_body{
+    display: grid;
+    grid-template-columns: 600px auto auto;
+    background-color: #212126;
+
+}
+.grid_body div{
+    border: 4px solid #212126;
+    background-color: black;
+    color: white;
+}
+div.grid_body .grid_one{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 70px 50px 0 90px;
+}
+div.grid_body .grid_one h3,div.boxshow_img .boxshow_text h2{
+    color: gold;
+    font-family: prata;
+}
+div.grid_body .grid_one button{
+    background-color: gold;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+div.grid_body .grid_other{
+    padding: 30px;
+    text-align: center;
+}
+div.grid_body .grid_other h3{
+    color: gold;
+}
+.boxshow_img img{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 100px;
+    margin-left: 90px;
+    float: left;
+}
+.boxshow_text{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
